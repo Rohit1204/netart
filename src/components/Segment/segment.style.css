@@ -1,0 +1,9 @@
+.work{
+    float: left;
+    width: 100%;
+}
+.work p{
+    float: left;
+    width: 100%;
+    text-align: center;
+}

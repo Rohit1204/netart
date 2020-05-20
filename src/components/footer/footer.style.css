@@ -1,0 +1,47 @@
+footer{
+    position: relative;
+bottom: 0;
+    background-color: red ;
+    height: 60px;
+}
+.github{
+    float: left;
+    color:#ffff;
+    margin-left: 20px;
+}
+span{
+    font-weight:bold;
+}
+.globe{
+    margin-right: 20px;
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    .globe {
+      margin-right:5px;
+    }
+    .github{
+        margin-left: 5px;
+    }
+    a:link{
+        font-size: 9px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .globe {
+      margin-right:5px;
+    }
+    .github{
+        margin-left: 5px;
+    }
+    a:link{
+        font-size: 7px;
+    }
+  }
+ a:link{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Bigelow Rules';
+     font-weight: 600;
+     justify-content: center;
+}

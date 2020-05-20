@@ -1,0 +1,16 @@
+.heading{
+    text-align: left;
+    align-items: center;
+}
+.heading p{
+    float: left;
+    width: 100%;
+    text-align: center;
+
+}
+.product img{
+    width: 90%;
+}
+.product{
+    border-bottom: 2px solid red;
+}
